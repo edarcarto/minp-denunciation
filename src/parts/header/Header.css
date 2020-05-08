@@ -1,0 +1,10 @@
+.no-pad-top{
+    padding-top: 0;
+}
+.no-pad-bot{
+    padding-bottom: 0;
+}
+.side-nav-start{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
