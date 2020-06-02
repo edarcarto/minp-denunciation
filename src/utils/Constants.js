@@ -3,6 +3,7 @@ const CONSTANTS = {
         basename : '/',
         path : '/',
         home : '/home',
+        case : '/case',
     }
 };
 

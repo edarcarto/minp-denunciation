@@ -12,13 +12,13 @@ class Header extends Component{
         return (
             <header className="no-padding">
                 <div className="navbar-fixed">
-                    <nav className="purple">
+                    <nav className="green">
                         <a href="#/" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
                         <div className="container nav-wrapper">
                             <a href="/" className="brand-logo">Denuncias</a>
                             <ul className="right hide-on-med-and-down">
                                 <li><a href="/">Denuncie</a></li>
-                                <li><a href="/">Casos</a></li>
+                                <li><a href="/case">Casos</a></li>
                                 <li><a href="/">Contacto</a></li>
                             </ul>
                         </div>

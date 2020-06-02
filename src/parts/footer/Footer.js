@@ -2,7 +2,7 @@ import React from 'react';
 
 const footer = (props) => {
     return (
-        <footer className="page-footer purple" style={{ marginTop: '0px', paddingLeft: '0px' }} id="contact">
+        <footer className="page-footer green" style={{ marginTop: '0px', paddingLeft: '0px' }} id="contact">
             <div className="container">
                 <div className="row">
                     <div className="col l6 s12">

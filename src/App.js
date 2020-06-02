@@ -8,6 +8,7 @@ import Constants from './utils/Constants';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import Home from './parts/home/Home';
+import Case from './parts/cases/Case';
 
 const store = configureStore();
 store.dispatch(constantsActions(false));
@@ -21,7 +22,8 @@ class App extends Component {
           <Route exact path={Constants.ROUTES.path}
             render={() => <Redirect to={Constants.ROUTES.home} />}>
           </Route>
-          <Route exact path={Constants.ROUTES.home} component={ Home }></Route>  
+          <Route exact path={Constants.ROUTES.home} component={ Home }></Route>
+          <Route exact path={Constants.ROUTES.case} component={ Case }></Route>
         </Router>
       </Provider>
     );
